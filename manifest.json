@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "多说新评论桌面提醒",
+	"description": "定时获取多说评论，有更新会桌面提醒。",
+	"version": "1.1",
+	"homepage_url": "https://github.com/h01/duoshuoComment",
+	"icons": {
+		"128": "icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["*://*.duoshuo.com/*", "notifications"]
+}
